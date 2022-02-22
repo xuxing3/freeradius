@@ -1,0 +1,10 @@
+bob    Cleartext-Password := "test"
+
+
+
+rory   Cleartext-Password := "cisco!123"
+       Service-Type = NAS-Prompt-User,
+       Login-Service = Telnet,
+       Cisco-AVPair = "shell:tasks*=#priv15,"
+
+
